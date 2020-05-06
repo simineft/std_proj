@@ -1,0 +1,16 @@
+#components-layout-demo-fixed-sider .logo {
+  height: 32px;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 16px;
+}
+.site-layout-background {
+  background: #fff;
+}
+.ant-layout-sider-children{
+  width: 100%;
+}
+
+.dashboardContent{
+  width: 100%;
+  margin-right: 85px;
+}

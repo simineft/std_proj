@@ -1,0 +1,107 @@
+.content{
+  width: 70%;
+  z-index: 999;
+    margin: auto;
+}
+
+.row1{
+  display: flex;
+}
+.site-layout-background{
+  display: flex;
+}
+.user_back{
+  position: relative;
+  width:389px;
+  height: 223px;
+  border: 1px solid #ccc;
+
+}
+.user_back  img {
+  width: 100%;
+  
+}
+.user_back .icon_finder{
+  width: 65px;
+  height: 65px;
+  position: absolute;
+  right: 0px;
+  top:50px
+}
+
+.region{
+  display: flex;
+  justify-content: space-around;
+}
+.box_info_user{
+  width: 170px;
+  height: 138px;
+  background-color: #86C9E9;
+}
+.box_info_user h2{
+  color: #ffffff;
+}
+.box_infoـplants{
+  width: 170px;
+  height: 138px;
+  background-color:#E46644;
+  color:#ffffff
+}
+.box_infoـwatering{
+  width: 170px;
+  height: 138px;
+  background-color:#5B5D65;
+  color:#ffffff
+
+}
+.box_infoـWells{
+  width: 170px;
+  height: 138px;
+  background-color: #5DB892;
+  color:#ffffff
+
+}
+.box_information{
+  display: flex;
+  justify-content: space-between;
+  color:#ffffff;
+  padding-top: 20px;
+}
+.info_detail{
+  width: 81px;
+  height: 38px;
+  margin-top: 45px;
+
+}
+.info_detail p{
+  padding: 5px;
+}
+
+.map{
+  padding-top: 15px;
+}
+.map img {
+  width: 100%;
+}
+.details{
+  display: flex;
+
+
+}
+.part{
+  display: flex;
+  justify-content: space-around;
+  border: 1px  solid #cccccc ;
+  align-items: center;
+  width: 181px;
+  height: 58px;
+  margin-bottom: 22px;
+  margin-left: 16px;
+  margin-right: 20px;
+
+}
+.part img  {
+  width: 42px;
+  height: 42px;
+
+}

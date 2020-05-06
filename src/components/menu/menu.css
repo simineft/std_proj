@@ -1,0 +1,12 @@
+.menuSide{
+  width: 20%;
+  position:fixed; 
+  top:0; 
+  right:200px;
+  height: 100vh;
+   background-color:#E0E0E0; 
+}
+
+.ant-menu-item-group{
+  background-color:#E0E0E0; 
+}

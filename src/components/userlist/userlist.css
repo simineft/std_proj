@@ -1,0 +1,22 @@
+
+.ant-list-item-meta-avatar{
+  order: 1;
+}
+.showList{
+  display: flex;
+  border-bottom: 1px solid ;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  padding: 13px;
+}
+.showList img{
+  width:30px;
+  height:30px;
+}
+
+.childrenCount{
+  padding: 2px 16px;
+  border-radius: 4px;
+  font-size: 10px;
+}
