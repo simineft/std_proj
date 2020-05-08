@@ -17,24 +17,24 @@ const MenuSidebar = () => {
 
     <div className="menuSide" >
       <Menu
-         style={{ backgroundColor: "#E0E0E0" ,height:'100vh'}}
-        defaultOpenKeys ={menus.map(menu => menu.id.toString() )}
+        style={{ backgroundColor: "#E0E0E0", height: '100vh' }}
+        defaultOpenKeys={menus.map(menu => menu.id.toString())}
         mode="inline"
       >
 
-        {menus.map((menu,index) => {
+        {menus.map((menu, index) => {
           return (
             <SubMenu
               key={menu.id}
               title={
-              <span>{menu.name}</span>
-                 
+                <span>{menu.name}</span>
+
               }
             >
-              <Menu.ItemGroup > 
-              {menu.subMenu.map(submenu=>{
-                  return(
-                      <Menu.Item key={submenu.id} >{submenu.name}</Menu.Item>
+              <Menu.ItemGroup >
+                {menu.subMenu.map(submenu => {
+                  return (
+                    <Menu.Item key={submenu.id} >{submenu.name}</Menu.Item>
                   )
                 })}
               </Menu.ItemGroup>
@@ -43,6 +43,11 @@ const MenuSidebar = () => {
 
         })}
       </Menu>
+
+
+  
+
+
     </div>
 
   )

@@ -1,0 +1,9 @@
+.marker{
+  width: 30px;
+  height: 30px;
+  background-color: crimson;
+  border-radius: 100px;
+}
+.map{
+  width: 500px !important;
+}

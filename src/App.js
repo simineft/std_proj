@@ -1,12 +1,19 @@
 import React from 'react';
-import Dashboard from "./container/dashboard/dashboard"
+import Dashboard from "./container/dashboard/dashboard";
+import MapContextProvider from "../src/context/map/mapContext"
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <Dashboard/>
-    </div>
+    <MapContextProvider  >
+       <div className="App">
+           <Dashboard />
+      </div>
+
+    </MapContextProvider>
+   
+
+
   );
 }
 
